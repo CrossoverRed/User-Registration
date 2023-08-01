@@ -8,7 +8,7 @@ public class AddResume {
         UserRegistration userRegistration = new UserRegistration();
         AddResume newAddResume = new AddResume(userRegistration); // Pass UserRegistration instance
 
-        boolean addUser = true;
+        boolean addUser = true; 
 
         while (addUser) {
             String name = Helper.readString("Enter name: ");
