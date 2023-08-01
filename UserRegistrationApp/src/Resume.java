@@ -4,13 +4,7 @@ public class Resume {
 	private String education;
 	private String experience;
 	private String skills;
-	//public AddResume(String title, String summary, String education, String experience, String skills) {
-	//    this.title = title;
-	//    this.summary = summary;
-	//    this.education = education;
-	//    this.experience = experience;
-	//    this.skills = skills;
-	//}
+	
 	public Resume(String title, String summary, String education, String experience, String skills) {
         this.title = title;
         this.summary = summary;
